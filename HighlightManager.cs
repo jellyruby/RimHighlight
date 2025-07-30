@@ -68,6 +68,8 @@ namespace OneShotHighlight
             }
         }
 
+
+
         // 세이브/로드 관련
         public override void ExposeData()
         {

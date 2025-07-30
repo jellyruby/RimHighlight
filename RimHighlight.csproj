@@ -60,6 +60,7 @@
     <Compile Include="HighlightManager.cs" />
     <Compile Include="Patch_ApplyDamage.cs" />
     <Compile Include="Projectile_PlagueBullet.cs" />
+    <Compile Include="Recorder.cs" />
     <Compile Include="ThingDef_PlagueBullet .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
