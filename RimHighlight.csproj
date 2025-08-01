@@ -54,10 +54,17 @@
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="HighlightManager.cs" />
+    <Compile Include="HilightWindowOverlay.cs" />
     <Compile Include="Patch_ApplyDamage.cs" />
     <Compile Include="Projectile_PlagueBullet.cs" />
     <Compile Include="Recorder.cs" />

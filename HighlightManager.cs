@@ -32,8 +32,12 @@ namespace OneShotHighlight
             // 2. 효과음 재생 (XML에 SoundDef를 먼저 정의해야 함)
             //SoundDefOf.BulletImpact_Metal.PlayOneShot(new TargetInfo(victim.Position, victim.Map));
 
+            // 2. 화면 정지 
+            Find.TickManager.CurTimeSpeed = TimeSpeed.Paused;
+
             // 3. 텍스트 효과 (Mote)
             MoteMaker.ThrowText(victim.DrawPos, victim.Map, "ONE SHOT!", 3.5f);
+
         }
 
         // 매 틱마다 호출되는 메서드

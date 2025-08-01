@@ -78,12 +78,12 @@ namespace OneShotHighlight
                     pawnHistory[pawnId].Dequeue();
                 }
 
-                if (tickCounter % 240 == 0)
+                /*if (tickCounter % 240 == 0)
                 {
                     Log.Message($"HighlightManager Tick: {pawnHistory[pawnId].Peek().Tick}");
                     Log.Message($"HighlightManager Pos: {pawnHistory[pawnId].Peek().PawnPosition}");
                     Log.Message($"HighlightManager Rot: {pawnHistory[pawnId].Peek().PawnRotation}");
-                }
+                }*/
             }
 
             tickCounter++;
